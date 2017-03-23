@@ -12,7 +12,7 @@
       <connection class='federated' prefer-ind-semantics='true'>
         <named-connections>
           <named-connection caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jwleaf'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:\Users\Dustin Neighly\Dropbox\School\Grad\Dissertation\excel docs\inheritance.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='..\xls\inheritance.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jwleaf' name='Sheet1' table='[Sheet1$]' type='table'>
