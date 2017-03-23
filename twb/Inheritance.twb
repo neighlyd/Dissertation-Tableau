@@ -1,0 +1,3046 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10100.17.0303.2001                               -->
+<workbook source-build='10.1.6 (10100.17.0303.2001)' source-platform='win' version='10.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='clean' />
+  <datasources>
+    <datasource caption='Sheet1 (inheritance)' inline='true' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' version='10.1'>
+      <connection class='federated' prefer-ind-semantics='true'>
+        <named-connections>
+          <named-connection caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jwleaf'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:\Users\Dustin Neighly\Dropbox\School\Grad\Dissertation\excel docs\inheritance.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jwleaf' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:N68:no:A1:N68:0' header='yes' outcome='2'>
+            <column datatype='integer' name='case' ordinal='0' />
+            <column datatype='string' name='place' ordinal='1' />
+            <column datatype='integer' name='year' ordinal='2' />
+            <column datatype='string' name='died' ordinal='3' />
+            <column datatype='string' name='inheritor' ordinal='4' />
+            <column datatype='string' name='fine' ordinal='5' />
+            <column datatype='integer' name='fine amt' ordinal='6' />
+            <column datatype='string' name='land amt' ordinal='7' />
+            <column datatype='string' name='land type' ordinal='8' />
+            <column datatype='string' name='heriot assessed' ordinal='9' />
+            <column datatype='integer' name='heriot amt' ordinal='10' />
+            <column datatype='string' name='heriot animal' ordinal='11' />
+            <column datatype='string' name='Disputed' ordinal='12' />
+            <column datatype='string' name='notes' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>case</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[case]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>case</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>place</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[place]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>place</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>died</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[died]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>died</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>inheritor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[inheritor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>inheritor</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fine</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[fine]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>fine</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fine amt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fine amt]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>fine amt</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>land amt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[land amt]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>land amt</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>land type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[land type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>land type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heriot assessed</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[heriot assessed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>heriot assessed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heriot amt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heriot amt]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>heriot amt</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heriot animal</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[heriot animal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>heriot animal</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disputed</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Disputed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Disputed</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>notes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[notes]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>notes</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N68:no:A1:N68:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Fine and Heriot' datatype='integer' name='[Calculation_2299932058985803776]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF ISNULL([fine amt]) AND ISNULL([heriot amt]) THEN&#13;&#10;NULL&#13;&#10;ELSE&#13;&#10;(IFNULL([fine amt],0)+IFNULL([heriot amt],0))&#13;&#10;END' />
+      </column>
+      <column caption='Average of Fine &amp; Heriot' datatype='real' name='[Calculation_2299932058988187649]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_2299932058985803776])' />
+      </column>
+      <column caption='Median Fine &amp; Heriot' datatype='real' name='[Calculation_2299932058996363272]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN( [Calculation_2299932058985803776] )' />
+      </column>
+      <column caption='Average Fine' datatype='real' name='[Calculation_3737987717880360960]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([fine amt])' />
+      </column>
+      <column datatype='string' datatype-customized='true' name='[Case (copy)]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR([case])' />
+      </column>
+      <column datatype='string' name='[Disputed]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;no&quot;' value=' ' />
+          <alias key='&quot;yes&quot;' value='Disputed' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Inheritor (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[inheritor]' new-bin='false'>
+          <bin value='&quot;Widow&quot;'>
+            <value>&quot;Widow&quot;</value>
+            <value>&quot;Widow - Purchase w/ Wife (Different Session)&quot;</value>
+            <value>&quot;Widow - Purchase w/ Wife (Same Session)&quot;</value>
+          </bin>
+        </calculation>
+        <aliases>
+          <alias key='&quot;Widow&quot;' value='Widows' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Year' datatype='string' datatype-customized='true' name='[Year (copy)]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR([year])' />
+      </column>
+      <column caption='Case' datatype='integer' name='[case]' role='measure' type='quantitative' />
+      <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Man&quot;' value='D: Man' />
+          <alias key='&quot;Woman&quot;' value='D: Woman' />
+        </aliases>
+      </column>
+      <column caption='Fine Amt' datatype='integer' name='[fine amt]' role='measure' type='quantitative' />
+      <column caption='Fine' datatype='string' name='[fine]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;No&quot;' value='F: No' />
+          <alias key='&quot;Yes&quot;' value='F: Yes' />
+        </aliases>
+      </column>
+      <column caption='Heriot Amount (in d.)' datatype='string' datatype-customized='true' name='[heriot amt (copy)]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR([heriot amt])' />
+        <aliases>
+          <alias key='%null%' value='N/A' />
+        </aliases>
+      </column>
+      <column caption='Heriot Amt' datatype='integer' name='[heriot amt]' role='measure' type='quantitative' />
+      <column caption='Heriot Animal' datatype='string' name='[heriot animal]' role='dimension' type='nominal' />
+      <column datatype='string' name='[heriot assessed]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;No&quot;' value='H: No' />
+          <alias key='&quot;Yes&quot;' value='H: Yes' />
+        </aliases>
+      </column>
+      <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Lord&quot;' value='Lord' />
+          <alias key='&quot;no&quot;' value='Unknown' />
+          <alias key='&quot;other&quot;' value='Other' />
+          <alias key='&quot;Purchase&quot;' value='Purchase' />
+          <alias key='&quot;Son&quot;' value='Son' />
+          <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+          <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+          <alias key='&quot;wife&quot;' value='Wife' />
+        </aliases>
+      </column>
+      <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;3 f&quot;' value='.75 v' />
+        </aliases>
+      </column>
+      <column caption='Land Type' datatype='string' name='[land type]' role='dimension' type='nominal' />
+      <column caption='Notes' datatype='string' name='[notes]' role='dimension' type='nominal' />
+      <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;b&quot;' value='Badbury' />
+          <alias key='&quot;cm&quot;' value='Christian Malford' />
+        </aliases>
+      </column>
+      <column caption='Year - number' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+      <column-instance column='[land amt]' derivation='None' name='[none:land amt:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.593199' measure-ordering='alphabetic' measure-percentage='0.406801' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:land amt:nk]' palette='tableau-20' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;2.5 v&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;1 cot&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;.25 v, 1.5 ov&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;3 ac&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;1 v&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;5 ac&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;.5 v, 2 ov&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;.5 v&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;.25 v&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;unknown&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;.75 v&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;1 c, 2 ac&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;1v, 5.5 ov&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;.6 v&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;.5 v, 1 ov&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;1 v, 1 ov&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;.3 v&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;1 v, 1 p. ov&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;2 v&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;.6 v, 1 cot&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;3 f&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;1 cot, 3 ov&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;2 c, 2 ac&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;1 v, 2 ov&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;12 ac&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;1 ov&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;1.5 ov&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:inheritor:nk]' palette='tableau-20' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;Widow&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;daughter&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;son&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;purchase&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;Purchased by Woman&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;Purchase w/ Wife&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;Widow - Purchase w/ Wife (Same Session)&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;Widow - Sold to Third Party&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;other&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;Widow - Purchase w/ Wife (Different Session)&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;wife&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;lord&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;Purchased by Man&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Heriot Amounts'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Inheritors</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column-instance column='[land amt]' derivation='Attribute' name='[attr:land amt:nk]' pivot='key' type='nominal' />
+            <column caption='Case' datatype='integer' name='[case]' role='measure' type='quantitative' />
+            <column-instance column='[inheritor]' derivation='Count' name='[cnt:inheritor:qk]' pivot='key' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column caption='Heriot Amount (in d.)' datatype='string' datatype-customized='true' name='[heriot amt (copy)]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([heriot amt])' />
+              <aliases>
+                <alias key='%null%' value='N/A' />
+              </aliases>
+            </column>
+            <column caption='Heriot Amt' datatype='integer' name='[heriot amt]' role='measure' type='quantitative' />
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;3 f&quot;' value='.75 v' />
+              </aliases>
+            </column>
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heriot amt (copy)]' derivation='None' name='[none:heriot amt (copy):nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+            <column-instance column='[case]' derivation='Sum' name='[sum:case:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]'>
+            <groupfilter function='level-members' level='[none:died:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter function='level-members' level='[none:inheritor:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <sort class='alphabetic' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' direction='ASC' />
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='level-members' level='[none:place:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:case:qk]' />
+              <tooltip column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:land amt:nk]' />
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:inheritor:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk] / [excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk])</rows>
+        <cols total='true'>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot amt (copy):nk]</cols>
+        <subtotals>
+          <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+        </subtotals>
+      </table>
+    </worksheet>
+    <worksheet name='Inheritance by Land Amount (B)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Inheritance by Land Amount in Badbury</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column caption='Fine and Heriot' datatype='integer' name='[Calculation_2299932058985803776]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF ISNULL([fine amt]) AND ISNULL([heriot amt]) THEN&#13;&#10;NULL&#13;&#10;ELSE&#13;&#10;(IFNULL([fine amt],0)+IFNULL([heriot amt],0))&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Disputed]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;no&quot;' value=' ' />
+                <alias key='&quot;yes&quot;' value='Disputed' />
+              </aliases>
+            </column>
+            <column caption='Case' datatype='integer' name='[case]' role='measure' type='quantitative' />
+            <column-instance column='[land amt]' derivation='Count' name='[cnt:land amt:qk]' pivot='key' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column caption='Fine Amt' datatype='integer' name='[fine amt]' role='measure' type='quantitative' />
+            <column caption='Fine' datatype='string' name='[fine]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='F: No' />
+                <alias key='&quot;Yes&quot;' value='F: Yes' />
+              </aliases>
+            </column>
+            <column caption='Heriot Amt' datatype='integer' name='[heriot amt]' role='measure' type='quantitative' />
+            <column caption='Heriot Animal' datatype='string' name='[heriot animal]' role='dimension' type='nominal' />
+            <column datatype='string' name='[heriot assessed]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='H: No' />
+                <alias key='&quot;Yes&quot;' value='H: Yes' />
+              </aliases>
+            </column>
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;3 f&quot;' value='.75 v' />
+              </aliases>
+            </column>
+            <column caption='Land Type' datatype='string' name='[land type]' role='dimension' type='nominal' />
+            <column-instance column='[Disputed]' derivation='None' name='[none:Disputed:nk]' pivot='key' type='nominal' />
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[fine]' derivation='None' name='[none:fine:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heriot animal]' derivation='None' name='[none:heriot animal:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heriot assessed]' derivation='None' name='[none:heriot assessed:nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land amt]' derivation='None' name='[none:land amt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land type]' derivation='None' name='[none:land type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_2299932058985803776]' derivation='Sum' name='[sum:Calculation_2299932058985803776:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[case]' derivation='Sum' name='[sum:case:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[fine amt]' derivation='Sum' name='[sum:fine amt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heriot amt]' derivation='Sum' name='[sum:heriot amt:qk]' pivot='key' type='quantitative' />
+            <column caption='Year - number' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]'>
+            <groupfilter function='member' level='[none:died:nk]' member='&quot;Woman&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter function='member' level='[none:inheritor:nk]' member='&quot;Son&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]'>
+            <groupfilter function='level-members' level='[none:land amt:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <sort class='manual' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1 ov&quot;</bucket>
+              <bucket>&quot;3 ac&quot;</bucket>
+              <bucket>&quot;1 cot&quot;</bucket>
+              <bucket>&quot;1 c, 2 ac&quot;</bucket>
+              <bucket>&quot;2 c, 2 ac&quot;</bucket>
+              <bucket>&quot;5 ac&quot;</bucket>
+              <bucket>&quot;.25 v&quot;</bucket>
+              <bucket>&quot;.3 v&quot;</bucket>
+              <bucket>&quot;12 ac&quot;</bucket>
+              <bucket>&quot;.5 v&quot;</bucket>
+              <bucket>&quot;.5 v, 1 ov&quot;</bucket>
+              <bucket>&quot;.5 v, 2 ov&quot;</bucket>
+              <bucket>&quot;.6 v&quot;</bucket>
+              <bucket>&quot;.6 v, 1 cot&quot;</bucket>
+              <bucket>&quot;3 f&quot;</bucket>
+              <bucket>&quot;1 v&quot;</bucket>
+              <bucket>&quot;1 v, 1 p. ov&quot;</bucket>
+              <bucket>&quot;1 v, 1 ov&quot;</bucket>
+              <bucket>&quot;1.5 ov&quot;</bucket>
+              <bucket>&quot;1v, 5.5 ov&quot;</bucket>
+              <bucket>&quot;2 v&quot;</bucket>
+              <bucket>&quot;2.5 v&quot;</bucket>
+              <bucket>&quot;unknown&quot;</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='level-members' level='[none:place:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' value='131' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' value='0' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' data-class='subtotal' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='3' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-pattern' scope='rows' value='solid' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:case:qk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:year:qk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:heriot amt:qk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot animal:nk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:fine amt:qk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:Calculation_2299932058985803776:qk]' />
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot assessed:nk]' />
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]' />
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' />
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Disputed:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:land amt:qk]</rows>
+        <cols>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Inheritance by Land Amount (CM)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>Sheet Name</run>
+            <run>&gt;</run>
+            <run> in Badbury</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column-instance column='[land amt]' derivation='Count' name='[cnt:land amt:qk]' pivot='key' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;3 f&quot;' value='.75 v' />
+              </aliases>
+            </column>
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land amt]' derivation='None' name='[none:land amt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:died:nk]' member='&quot;Man&quot;' />
+              <groupfilter function='member' level='[none:died:nk]' member='&quot;Woman&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter from='&quot;Daughter&quot;' function='range' level='[none:inheritor:nk]' to='&quot;Unknown&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <sort class='manual' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;3 ac&quot;</bucket>
+              <bucket>&quot;1 cot&quot;</bucket>
+              <bucket>&quot;1 c, 2 ac&quot;</bucket>
+              <bucket>&quot;2 c, 2 ac&quot;</bucket>
+              <bucket>&quot;.25 v&quot;</bucket>
+              <bucket>&quot;.3 v&quot;</bucket>
+              <bucket>&quot;12 ac&quot;</bucket>
+              <bucket>&quot;.5 v&quot;</bucket>
+              <bucket>&quot;.5 v, 1 ov&quot;</bucket>
+              <bucket>&quot;.5 v, 2 ov&quot;</bucket>
+              <bucket>&quot;.6 v&quot;</bucket>
+              <bucket>&quot;.6 v, 1 cot&quot;</bucket>
+              <bucket>&quot;3 f&quot;</bucket>
+              <bucket>&quot;.75 v&quot;</bucket>
+              <bucket>&quot;1 v&quot;</bucket>
+              <bucket>&quot;1 v, 1 ov&quot;</bucket>
+              <bucket>&quot;1.5 ov&quot;</bucket>
+              <bucket>&quot;1v, 5.5 ov&quot;</bucket>
+              <bucket>&quot;2 v&quot;</bucket>
+              <bucket>&quot;2.5 v&quot;</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='member' level='[none:place:nk]' member='&quot;cm&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' />
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:land amt:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:land amt:qk]</rows>
+        <cols>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column caption='Case' datatype='integer' name='[case]' role='measure' type='quantitative' />
+            <column-instance column='[inheritor]' derivation='Count' name='[cnt:inheritor:qk]' pivot='key' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[heriot assessed]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='H: No' />
+                <alias key='&quot;Yes&quot;' value='H: Yes' />
+              </aliases>
+            </column>
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;3 f&quot;' value='.75 v' />
+              </aliases>
+            </column>
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heriot assessed]' derivation='None' name='[none:heriot assessed:nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land amt]' derivation='None' name='[none:land amt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+            <column-instance column='[case]' derivation='Sum' name='[sum:case:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter function='level-members' level='[none:inheritor:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <sort class='manual' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1 cot&quot;</bucket>
+              <bucket>&quot;1 c, 2 ac&quot;</bucket>
+              <bucket>&quot;2 c, 2 ac&quot;</bucket>
+              <bucket>&quot;1.5 ov&quot;</bucket>
+              <bucket>&quot;3 ac&quot;</bucket>
+              <bucket>&quot;.25 v&quot;</bucket>
+              <bucket>&quot;.3 v&quot;</bucket>
+              <bucket>&quot;12 ac&quot;</bucket>
+              <bucket>&quot;.5 v&quot;</bucket>
+              <bucket>&quot;.5 v, 1 ov&quot;</bucket>
+              <bucket>&quot;.5 v, 2 ov&quot;</bucket>
+              <bucket>&quot;.6 v&quot;</bucket>
+              <bucket>&quot;.6 v, 1 cot&quot;</bucket>
+              <bucket>&quot;3 f&quot;</bucket>
+              <bucket>&quot;1 v&quot;</bucket>
+              <bucket>&quot;1 v, 1 ov&quot;</bucket>
+              <bucket>&quot;1v, 5.5 ov&quot;</bucket>
+              <bucket>&quot;2 v&quot;</bucket>
+              <bucket>&quot;2.5 v&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='member' level='[none:place:nk]' member='&quot;cm&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:inheritor:qk]' field-type='quantitative' max='33' min='1' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' />
+              <size column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot assessed:nk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:case:qk]' />
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:inheritor:qk]</rows>
+        <cols>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column caption='Average Fine' datatype='real' name='[Calculation_3737987717880360960]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([fine amt])' />
+            </column>
+            <column caption='Year' datatype='string' datatype-customized='true' name='[Year (copy)]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([year])' />
+            </column>
+            <column caption='Case' datatype='integer' name='[case]' role='measure' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column caption='Fine Amt' datatype='integer' name='[fine amt]' role='measure' type='quantitative' />
+            <column caption='Heriot Amt' datatype='integer' name='[heriot amt]' role='measure' type='quantitative' />
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column-instance column='[Year (copy)]' derivation='None' name='[none:Year (copy):nk]' pivot='key' type='nominal' />
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+            <column-instance column='[case]' derivation='Sum' name='[sum:case:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[fine amt]' derivation='Sum' name='[sum:fine amt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heriot amt]' derivation='Sum' name='[sum:heriot amt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3737987717880360960]' derivation='User' name='[usr:Calculation_3737987717880360960:qk]' pivot='key' type='quantitative' />
+            <column caption='Year - number' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;1340&quot;' function='range' level='[none:Year (copy):nk]' to='&quot;1357&quot;' />
+              <groupfilter function='member' level='[none:Year (copy):nk]' member='&quot;1365&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]'>
+            <groupfilter function='member' level='[none:died:nk]' member='&quot;Man&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter function='level-members' level='[none:inheritor:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='member' level='[none:place:nk]' member='&quot;b&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' value='82' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' value='192' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[usr:Calculation_3737987717880360960:qk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:case:qk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:fine amt:qk]' />
+              <lod column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[sum:heriot amt:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk] / [excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]))</rows>
+        <cols total='true'>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</cols>
+        <subtotals>
+          <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+        </subtotals>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column caption='Fine and Heriot' datatype='integer' name='[Calculation_2299932058985803776]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF ISNULL([fine amt]) AND ISNULL([heriot amt]) THEN&#13;&#10;NULL&#13;&#10;ELSE&#13;&#10;(IFNULL([fine amt],0)+IFNULL([heriot amt],0))&#13;&#10;END' />
+            </column>
+            <column caption='Average of Fine &amp; Heriot' datatype='real' name='[Calculation_2299932058988187649]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_2299932058985803776])' />
+            </column>
+            <column datatype='string' name='[Disputed]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;no&quot;' value=' ' />
+                <alias key='&quot;yes&quot;' value='Disputed' />
+              </aliases>
+            </column>
+            <column caption='Year' datatype='string' datatype-customized='true' name='[Year (copy)]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([year])' />
+            </column>
+            <column-instance column='[Calculation_2299932058985803776]' derivation='Attribute' name='[attr:Calculation_2299932058985803776:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[case]' derivation='Attribute' name='[attr:case:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[fine amt]' derivation='Attribute' name='[attr:fine amt:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[heriot amt]' derivation='Attribute' name='[attr:heriot amt:ok]' pivot='key' type='ordinal' />
+            <column caption='Case' datatype='integer' name='[case]' role='measure' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column caption='Fine Amt' datatype='integer' name='[fine amt]' role='measure' type='quantitative' />
+            <column caption='Heriot Amt' datatype='integer' name='[heriot amt]' role='measure' type='quantitative' />
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;3 f&quot;' value='.75 v' />
+              </aliases>
+            </column>
+            <column caption='Land Type' datatype='string' name='[land type]' role='dimension' type='nominal' />
+            <column-instance column='[Disputed]' derivation='None' name='[none:Disputed:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (copy)]' derivation='None' name='[none:Year (copy):nk]' pivot='key' type='nominal' />
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land amt]' derivation='None' name='[none:land amt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land type]' derivation='None' name='[none:land type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_2299932058988187649]' derivation='User' name='[usr:Calculation_2299932058988187649:qk]' pivot='key' type='quantitative' />
+            <column caption='Year - number' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]'>
+            <groupfilter function='level-members' level='[none:Year (copy):nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]'>
+            <groupfilter function='member' level='[none:died:nk]' member='&quot;Woman&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter function='level-members' level='[none:inheritor:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]'>
+            <groupfilter function='level-members' level='[none:land amt:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:land type:nk]' member='&quot;at&quot;' />
+              <groupfilter function='member' level='[none:land type:nk]' member='&quot;at (v)&quot;' />
+              <groupfilter from='&quot;ov&quot;' function='range' level='[none:land type:nk]' to='&quot;v&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='member' level='[none:place:nk]' member='&quot;b&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='border-color' value='#b0b0b0' />
+            <format attr='border-width' value='1' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' value='81' />
+            <format attr='border-color' scope='cols' value='#000000' />
+            <format attr='border-style' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' value='92' />
+            <format attr='width' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:Calculation_2299932058985803776:ok]' value='96' />
+            <format attr='total-label' data-class='total' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' value='Average' />
+            <format attr='total-label' data-class='total' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]' value='Average' />
+            <format attr='total-label' data-class='subtotal' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]' value='Average of Fines &amp; Heriot' />
+            <format attr='band-color' scope='rows' value='#c0c0c0' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='background-color' data-class='subtotal' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#c0c0c0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='col-levels' value='10' />
+            <format attr='row-levels' value='10' />
+            <format attr='row-horiz-levels' value='10' />
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-level' scope='rows' value='6' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='2' />
+            <format attr='line-pattern' scope='cols' value='solid' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[usr:Calculation_2299932058988187649:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:case:ok] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:fine amt:ok] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:heriot amt:ok] / ([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:Calculation_2299932058985803776:ok] / [excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Disputed:nk]))))))))</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Inheritance by Land Amount in Badbury</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column caption='Case' datatype='integer' name='[case]' role='measure' type='quantitative' />
+            <column-instance column='[case]' derivation='Count' name='[cnt:case:qk]' pivot='key' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;3 f&quot;' value='.75 v' />
+              </aliases>
+            </column>
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land amt]' derivation='None' name='[none:land amt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]'>
+            <groupfilter function='member' level='[none:died:nk]' member='&quot;Man&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:inheritor:nk]' member='&quot;Widow&quot;' />
+              <groupfilter function='member' level='[none:inheritor:nk]' member='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' />
+              <groupfilter function='member' level='[none:inheritor:nk]' member='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' />
+              <groupfilter function='member' level='[none:inheritor:nk]' member='&quot;Widow - Sold to Third Party&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]'>
+            <groupfilter function='level-members' level='[none:land amt:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <sort class='manual' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1 ov&quot;</bucket>
+              <bucket>&quot;3 ac&quot;</bucket>
+              <bucket>&quot;1 cot&quot;</bucket>
+              <bucket>&quot;1 c, 2 ac&quot;</bucket>
+              <bucket>&quot;2 c, 2 ac&quot;</bucket>
+              <bucket>&quot;5 ac&quot;</bucket>
+              <bucket>&quot;.25 v&quot;</bucket>
+              <bucket>&quot;.3 v&quot;</bucket>
+              <bucket>&quot;12 ac&quot;</bucket>
+              <bucket>&quot;.5 v&quot;</bucket>
+              <bucket>&quot;.5 v, 1 ov&quot;</bucket>
+              <bucket>&quot;.5 v, 2 ov&quot;</bucket>
+              <bucket>&quot;.6 v&quot;</bucket>
+              <bucket>&quot;.6 v, 1 cot&quot;</bucket>
+              <bucket>&quot;3 f&quot;</bucket>
+              <bucket>&quot;1 v&quot;</bucket>
+              <bucket>&quot;1 v, 1 p. ov&quot;</bucket>
+              <bucket>&quot;1 v, 1 ov&quot;</bucket>
+              <bucket>&quot;1.5 ov&quot;</bucket>
+              <bucket>&quot;1v, 5.5 ov&quot;</bucket>
+              <bucket>&quot;2 v&quot;</bucket>
+              <bucket>&quot;2.5 v&quot;</bucket>
+              <bucket>&quot;unknown&quot;</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='member' level='[none:place:nk]' member='&quot;b&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' value='0' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' data-class='subtotal' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='3' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-pattern' scope='rows' value='solid' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:case:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk] / [excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk])</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Table of Inheritors'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Inheritors</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (inheritance)' name='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw'>
+            <column-instance column='[inheritor]' derivation='Count' name='[cnt:inheritor:qk]' pivot='key' type='quantitative' />
+            <column caption='Died' datatype='string' name='[died]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Man&quot;' value='D: Man' />
+                <alias key='&quot;Woman&quot;' value='D: Woman' />
+              </aliases>
+            </column>
+            <column caption='Fine' datatype='string' name='[fine]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='F: No' />
+                <alias key='&quot;Yes&quot;' value='F: Yes' />
+              </aliases>
+            </column>
+            <column caption='Inheritor' datatype='string' name='[inheritor]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Lord&quot;' value='Lord' />
+                <alias key='&quot;no&quot;' value='Unknown' />
+                <alias key='&quot;other&quot;' value='Other' />
+                <alias key='&quot;Purchase&quot;' value='Purchase' />
+                <alias key='&quot;Son&quot;' value='Son' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Different Session)&quot;' value='Widow - Purchase (Different Session)' />
+                <alias key='&quot;Widow - Purchase w/ Wife (Same Session)&quot;' value='Widow - Purchase (Same Session)' />
+                <alias key='&quot;wife&quot;' value='Wife' />
+              </aliases>
+            </column>
+            <column caption='Land Amount' datatype='string' name='[land amt]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;3 f&quot;' value='.75 v' />
+              </aliases>
+            </column>
+            <column-instance column='[died]' derivation='None' name='[none:died:nk]' pivot='key' type='nominal' />
+            <column-instance column='[fine]' derivation='None' name='[none:fine:nk]' pivot='key' type='nominal' />
+            <column-instance column='[inheritor]' derivation='None' name='[none:inheritor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[land amt]' derivation='None' name='[none:land amt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;b&quot;' value='Badbury' />
+                <alias key='&quot;cm&quot;' value='Christian Malford' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]'>
+            <groupfilter function='member' level='[none:died:nk]' member='&quot;Woman&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <groupfilter function='level-members' level='[none:inheritor:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <sort class='computed' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' direction='ASC' using='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:inheritor:qk]' />
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]'>
+            <groupfilter function='level-members' level='[none:land amt:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]'>
+            <groupfilter function='member' level='[none:place:nk]' member='&quot;b&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</column>
+            <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' value='22' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='total-label' data-class='total' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]' value='Total' />
+            <format attr='width' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' value='140' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:inheritor:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk] / [excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk])</rows>
+        <cols total='true'>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]</cols>
+        <subtotals>
+          <column>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</column>
+        </subtotals>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='18' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='21' param='horz' type='layout-flow' w='100000' x='0' y='0'>
+            <zone h='100000' id='19' type='layout-basic' w='77400' x='0' y='0'>
+              <zone h='100000' id='17' name='Inheritance by Land Amount (B)' w='77400' x='0' y='0' />
+            </zone>
+            <zone fixed-size='226' h='100000' id='20' is-fixed='true' param='vert' type='layout-flow' w='22600' x='77400' y='0'>
+              <zone fixed-size='254' h='33250' id='25' is-fixed='true' name='Inheritance by Land Amount (B)' pane-specification-id='0' param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='color' w='22600' x='77400' y='0' />
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='color' />
+            <card pane-specification-id='0' param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot assessed:nk]' type='size' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine amt:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot animal:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot assessed:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:notes:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Inheritance by Land Amount (CM)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:fine amt:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Inheritance by Land Amount (B)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='39' type='pages' />
+            <card size='120' type='filters' />
+            <card size='314' type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' size='140' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:fine amt:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Disputed:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot animal:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot assessed:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='39' type='pages' />
+            <card size='120' type='filters' />
+            <card size='314' type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Table of Inheritors'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+                    <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[cnt:inheritor:qk]</field>
+                  <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+                  <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]</field>
+                  <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;Woman&quot;</value>
+                <value>&quot;Yes&quot;</value>
+                <value>&quot;Son&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_1371064633376317441:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:fine:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot assessed:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Heriot Amounts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_1371064633376317441:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot amt (copy):nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:heriot assessed:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Inheritance by Land Amount (B)'>
+          <zoom type='entire-view' />
+          <highlight field='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]'>
+            <bucket-selection />
+          </highlight>
+          <default-map-tool-selection tool='16' />
+        </viewpoint>
+      </viewpoints>
+      <active id='17' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991403010:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991439875:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991460356:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991472645:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]' type='filter' />
+            <card param='[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:case:ok]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:fine amt:ok]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[attr:heriot amt:ok]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991403010:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991439875:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991460356:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Calculation_2299932058991472645:qk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Disputed:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:Year (copy):nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:died:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:inheritor:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land amt:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:land type:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:place:nk]</field>
+            <field>[excel-direct.1t2rood1o0dsyx16vzfqq1cmo1jw].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      +19B+8wf+p1PUgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Heriot Amounts' width='192'>
+      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
+      rQJA0Ib/Dw5LZP68ocDaAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Inheritance by Land Amount (B)' width='192'>
+      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
+      Jdz8G/wfInVNOTncM88AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Inheritance by Land Amount (CM)' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='162'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 5' width='192'>
+      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
+      cB+DUisV95juKnaBFiijrYqSaikVVj1SbQUrrR2oaivRKMbIL7CzePMyvAeOcCiQT0VRPnkN
+      y1k99gFvvNHGskeeoiyvkNmlBSQtJkyyapYkTOjlt6e4K3UWVmx69K7tyTRmHIXZuw4oXely
+      Spve59jFYkoq8lFrTZQUSVApFWzYvIkTZ96mz7yIXYvKKCwtRiMHk60IudaEobaIC01XqKlc
+      gk6mx6Tt58Sha+grNrNqw1oKhON8+ItfYq3bzJN3gomiiMU1YYYnEqzUmci6mvnVT1tRGYt5
+      9OlHMau8OAqsKHVK8q1aVFqVOBdoIUilUuKDsDvinkEudwZYv3k1+vs4vYsBWADEAPyekM2S
+      TCaRq9TI7mM6sRiABUAMwIMTB8GinJZTg+BQKLQgSz5ms1mxkt8DyqkuUCqVEg8U0V1yKgAi
+      0aeJYwBBIBEJEo6nAYFE2I/L5SIQSfy+NGImSdAXInX7b2RTcfyhyJw1+Y8TSMVCuF0uXG4v
+      0UQa8TR3bzk1BriXsHuAg6/9gvSGv+elVQJH3juCJ50kSiXffnkvefIMzu5zvPqrPl7+H39H
+      WSrKjaNv8uaglf/9j8/PdfPvLRPgwv636Ixo0UjCyOyreX7fRgy5VO7hPuV4ACIMdPaRlCqR
+      ZQGFifW7n0WbGeY3b3YREsAQcdPa0YUg1QIQGGpjLKZCLpnHtx3jLgYnpWz69tMs0qcJRASU
+      Qpz2c0c5d2uSwmXbeWiVitNvXiCoSCKzLeHpfTuwaXIvILm3x3fRsfKhh1h0Z4qvRKmnwKyk
+      82YrEpuabChId9NFlDVbcZhvV6mz1G1ix/JyNPP51KGr4fHHF9F56n0+OHCSnik/AU8/l9rC
+      PPXNF8j2XuLWyCgjM3G2PvE8MmcLk67PLna8kM3nX+NXTsikSUs1bHniO6Tf+B/cvNnK1LV2
+      QtIOZob9KE+sJv+xZXPdzD9KyKSxLdrMN+rW4xzs4L3GSxTrqlAoLOh1eixqJZFUCq1eh15t
+      QGfQ5OwYQQzAJ2T9g7x3qBlrgZbxUAHb9mzi+V3bPlEacRla4HNUHZ8TGW8/b7x1EmPNEsyE
+      sRWVYc2rxKA4yJnjJ3CltWzNMzGGc66bOufE26Bk8E2NEVMXUWxV4p8aYdQVQm8vo6LYggwg
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='124' name='Sheet 7' width='192'>
+      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
+      IKFo/wfiRcIB/TgbEgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 9' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='154' name='Table of Inheritors' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
